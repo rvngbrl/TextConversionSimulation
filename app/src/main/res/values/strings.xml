@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bytext</string>
+    <string name="title_activity_text_converter">TextConverter</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="input_text1"> Input Text</string>
+    <string name="input_text2"> Output</string>
+    <string name="convert">Convert</string>
+    <string name="simulation">Simulation</string>
+    <string name="method">Method</string>
+
+
+    <string-array name="TextConvert">
+        <item>Text to Binary</item>
+        <item>Binary to Text</item>
+        <item>Decimal to Binary</item>
+        <item>Binary to Decimal</item>
+        <item>Decimal to Hexadecimal</item>
+        <item>Hexadecimal to Decimal</item>
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D4F8B"
+            android:text="SIMULATION"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cnvrsnName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="TextBinary"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#0D4F8B"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/AnswerTxt"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="TextView"
+            android:textColor="#0D4F8B"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/outputSimulation"
+            android:layout_width="match_parent"
+            android:layout_height="291dp"
+            android:textColor="#0D4F8B"
+            android:background="@drawable/custom_simul"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="TextView" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/okbtn"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="266dp"
+                android:background="@drawable/custom_simul"
+                android:text="OK"
+                android:textColor="#0D4F8B"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bCopy1"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/custom_simul"
+                android:text="Copy"
+                android:textColor="#0D4F8B"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
